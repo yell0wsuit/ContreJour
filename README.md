@@ -1,4 +1,4 @@
-# Contre Jour
+# Contre Jour HTML5 source code
 ---
 This is the Contre Jour HTML5 source code from http://contrejour.ie
 
