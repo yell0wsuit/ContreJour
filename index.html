@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#  website: http://ogp.me/ns/website#">
@@ -10,14 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Contre Jour</title>
-    <link rel="canonical" href="http://www.contrejour.ie/"/>
+    <link rel="canonical" href="https://windyboy1704.github.io/ContreJour/index.html"/>
 
     <meta property="fb:app_id" content="427821790613350">
     <meta property="og:title" content="Contre Jour"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://www.contrejour.ie/" />
-    <meta property="og:image" content="http://www.contrejour.ie/img/icon144x144.png" />
-    <meta property="og:image" content="http://www.contrejour.ie/img/icon144x144_valentine.png" />
+    <meta property="og:url" content="https://windyboy1704.github.io/ContreJour/index.html" />
+    <meta property="og:image" content="https://windyboy1704.github.io/ContreJour/img/icon144x144.png" />
+    <meta property="og:image" content="https://windyboy1704.github.io/ContreJour/img/icon144x144_valentine.png" />
     <meta property="og:site_name" content="Contre Jour"/>
     <meta property="og:description" content="Contre Jour is now on the web with a beautiful multi-touch world for IE10 users.  Play it now!" /> 
 
@@ -34,45 +33,28 @@
     
     <meta name="application-name" content="Contre Jour" />
     <meta name="msapplication-TileColor" content="#2F3334" />
-    <meta name="msapplication-TileImage" content="img/tile144.png" />
-    <meta name="msapplication-square70x70logo" content="img/tile144.png" /> 
-    <meta name="msapplication-square150x150logo" content="img/tile270.png" />
-    <meta name="msapplication-wide310x150logo" content="img/tilewide.png" />
-    <meta name="msapplication-square310x310logo" content="img/tile588.png" />
+    <meta name="msapplication-TileImage" content="https://windyboy1704.github.io/ContreJour/img/tile144.png" />
+    <meta name="msapplication-square70x70logo" content="https://windyboy1704.github.io/ContreJour/img/tile144.png" /> 
+    <meta name="msapplication-square150x150logo" content="https://windyboy1704.github.io/ContreJour/img/tile270.png" />
+    <meta name="msapplication-wide310x150logo" content="https://windyboy1704.github.io/ContreJour/img/tilewide.png" />
+    <meta name="msapplication-square310x310logo" content="https://windyboy1704.github.io/ContreJour/img/tile588.png" />
         
-    <link rel="stylesheet" href="http://rethinkbar.azurewebsites.net/contrejour/ieflyout.css">
-    <link rel="stylesheet" href="css/styles.css?v=1.6.3">
-	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+	<script src="scripts/jquery-3.3.1.js"></script>
+	<script src="scripts/jquery-migrate.js"></script>
 	<script src='scripts/modernizr.min.js' type="text/javascript"></script>
-
-    <script src="http://www.google-analytics.com/cx/api.js?experiment=6Mg8Nv6xQ76yAh8PP1kpCQ"></script>
     <script>var cj = cj || {}; cj.variation = (typeof cxApi !== 'undefined') ? cxApi.chooseVariation() : null;</script>
-    <script id="googleScript" type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-34746566-1']);
-        _gaq.push(['_setDomainName', 'contrejour.ie']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
-    </script>
-
 
 </head>
 <body id="game">
     <div id="background">
-        <img src="img/siteBGForest.jpg?v=1.6.3" class="stretch-abs" alt="" />
+        <img src="img/siteBGForest.jpg" class="stretch-abs" alt="" />
         <div id="backgroundOverlay" class="stretch-abs"></div>
     </div>
 
     <div id="loaderContainer">
         <div id="fader"></div>
-        <img id="loadingBg" src="img/siteBgLoading.jpg?v=1.6.3" alt="Loading Background" />
+        <img id="loadingBg" src="img/siteBgLoading.jpg" alt="Loading Background" />
         <div id="loaderPanel" class="noShow">
             <canvas id="loaderCanvas" width="500" height="800"></canvas>
             <div id="loaderLogo"></div>
@@ -114,8 +96,8 @@
                     <div id="gameSkipBtn"></div>
                 </div>
                 <div id="menu" class="menuPanel">
-                    <img id="menuPanelBG"  src="img/McRightPanelBackground-hd.png?v=1.6.3" class="menuPanelImage" />
-                    <img id="menuPanelBGBlue" src="img/McRightPanelBackground-hd_blue.png?v=1.6.3" class="menuPanelImage" />
+                    <img id="menuPanelBG"  src="img/McRightPanelBackground-hd.png" class="menuPanelImage" />
+                    <img id="menuPanelBGBlue" src="img/McRightPanelBackground-hd_blue.png" class="menuPanelImage" />
                 </div>
             </div>
             
@@ -226,10 +208,10 @@
     </div>
     
     <div id="card">
-        <img id="card-bg" src="img/card-bg.jpg?v=1.6.3" class="stretch-abs" alt="" />
+        <img id="card-bg" src="img/card-bg.jpg" class="stretch-abs" alt="" />
         <canvas id="card-canvas"></canvas>
         <div id="card-heart"></div>
-        <img id="card-petit" src="img/card-petit.png?v=1.6.3" alt="Petit's New Friend" />
+        <img id="card-petit" src="img/card-petit.png" alt="Petit's New Friend" />
         <div id="card-content">
             <div id="card-message">
                 <div id="card-to-text"></div>
@@ -331,7 +313,7 @@
     <footer id="gameFooter" class="noShow">
         <div id="gameFooterContainer">
             <div id="meetPetitDiv" class="meetPetitDiv">
-                <img src="img/meetPetit.png?v=1.6.3" />
+                <img src="img/meetPetit.png" />
                 <span id="meetPetitMsg"></span>
             </div>
             <div id="gameWarning" style="visibility: visible;">             
@@ -341,9 +323,9 @@
         </div>
     </footer>
 
-    <script src='scripts/libraries.js?v=1.6.3' type="text/javascript"></script>
-    <script src='http://rethinkbar.azurewebsites.net/contrejour/ieflyout.js' type="text/javascript"></script>
-    <script src='scripts/cj.js?v=1.6.3' type="text/javascript"></script>
+    <script src='scripts/libraries.js' type="text/javascript"></script>
+    
+    <script src='scripts/cj.js' type="text/javascript"></script>
 
 </body>
 </html>
