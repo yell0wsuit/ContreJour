@@ -4,7 +4,7 @@ This is the Contre Jour HTML5 source code from http://contrejour.ie. The code is
 ## Run the code
 There are two ways:  
 **1. Easiest method**  
-Visit https://windyboy1704.github.io/ContreJour/index.html
+Visit https://auranticus.github.io/ContreJour/index.html
 
 **2. Clone for offline play**  
 Clone this repository and open *index.html* in your browser. On Google Chrome, you need to add `--allow-file-access-from-file` flag, by right-clicking Google Chrome shortcut icon > **Properties** > enter `--allow-file-access-from-file` in the **Target** option.  
